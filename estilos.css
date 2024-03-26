@@ -323,14 +323,14 @@ button{
 
 .modal-contenido h2{
     font-family: "Elfin-Normal";
-    font-size: 70px;
+    font-size: 45px;
     font-weight: lighter;
     text-align: center;
     padding: 20px 0px 20px 0px;
 }
 
 .modal-contenido h3{
-    padding: 20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
 }
 #abrir-modal {
     background-color: black;
@@ -392,6 +392,8 @@ button{
 .modal-contenido div{
     margin-bottom: 20px;
 }
+
+
 
 i img{
     max-height: 35px;
