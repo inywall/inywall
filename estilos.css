@@ -5,6 +5,21 @@
     /*background-color: red;*/
 }
 
+@font-face {
+    font-family: "Elfin-Normal";
+    src: url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.eot");
+    src: url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7ea931b3f295d073ac6a4f2b4cb51aec.svg#Elfin-Normal")format("svg");
+}
+
+body {
+    font-family: 'Elfin-Normal', sans-serif;
+    /* Otras reglas de estilo para el cuerpo del documento */
+}
+
 header{
     background: url(img/foto-1.png) no-repeat top;
     background-position-x: 79%;
