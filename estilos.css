@@ -142,9 +142,6 @@ h2{
     background-color: black;
 }
 
-.cena{
-    max-width: 70px;
-}
 
 .contenido-civil div{
     margin-left: 15px;
@@ -165,15 +162,13 @@ h2{
     width: fit-content;
     display: flex;
     align-items: center;
+    
 }
 
 .contenido-ezeiza-flex{
     align-items: flex-start;
 }
 
-.contenido-juegos-flex{
-    align-items: start;
-}
 
 .contenido-ameli-flex,
 .contenido-comida-flex,
@@ -181,7 +176,9 @@ h2{
 .contenido-madrid-flex{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
+
 
 .contenido-madrid-flex{
     flex-direction: row;
@@ -363,7 +360,7 @@ button{
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; 
+    width: 300px; 
     text-align: center;
 }
 
@@ -392,6 +389,9 @@ button{
     cursor: pointer;
 }
 
+.modal-contenido div{
+    margin-bottom: 20px;
+}
 
 i img{
     max-height: 35px;
@@ -401,9 +401,12 @@ i img{
 .anillos,
 .brindis-icono,
 .ezeiza-icono,
-.cena-icono,
 .juegos-icono{
     margin-right: 10px;
+}
+
+.cena-icono{
+    margin-left: 10px;
 }
 
 .juegos-icono{
@@ -412,4 +415,8 @@ i img{
 
 .madrid-icono{
     margin-left: 10px;
+}
+
+.p-cbu{
+    margin: 0px 0 20px 0;
 }
